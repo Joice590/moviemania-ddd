@@ -54,15 +54,28 @@ Regra de dependência: as setas apontam para dentro. O domínio não conhece Exp
 - Só o dono pode editar ou excluir o filme.
 - Um comentário não pode ser vazio e tem no máximo 500 caracteres.
 - Excluir um filme remove suas curtidas e seus comentários.
-- Os contadores de curtidas e comentários devem ficar consistentes com as tabelas.
+- Os contadores de filmes, curtidas e comentários devem permanecer consistentes com os registros correspondentes no banco de dados.
 
 ## Estrutura de pastas
-
-```text
 src/
-  identity/       domain, application, infrastructure, interfaces
-  catalog/        domain, application, infrastructure, interfaces
-  engagement/     domain, application, infrastructure, interfaces
-  shared/         errors, http, middlewares
+  identity/
+    domain/
+    application/
+    infrastructure/
+    interfaces/
+  catalog/
+    domain/
+    application/
+    infrastructure/
+    interfaces/
+  engagement/
+    domain/
+    application/
+    infrastructure/
+    interfaces/
+  shared/
+    errors/
+    http/
+    middlewares/
 docs/
-```
+README.md

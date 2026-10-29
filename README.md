@@ -57,6 +57,7 @@ Regra de dependência: as setas apontam para dentro. O domínio não conhece Exp
 - Os contadores de filmes, curtidas e comentários devem permanecer consistentes com os registros correspondentes no banco de dados.
 
 ## Estrutura de pastas
+```text
 src/
   identity/
     domain/
@@ -79,3 +80,4 @@ src/
     middlewares/
 docs/
 README.md
+```
